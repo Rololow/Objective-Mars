@@ -1,0 +1,19 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:handsaw",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:slime_ball",
+      "count": 8.0
+    },
+    "result": "zoe:spring_heel"
+  },
+  "attributes": {},
+  "update": true
+}

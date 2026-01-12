@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:copper_cog",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 16.0
+    },
+    "result": "zoe:rotor_joints"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "amplifier": 0.1
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.0
+}

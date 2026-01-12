@@ -1,0 +1,11 @@
+{
+  "id": "kiln_fluid",
+  "controllerIds": "mm:kiln",
+  "name": "Kiln Fluid Hatch",
+  "type": "mm:fluid",
+  "config": {
+    "rows": 1,
+    "columns": 1,
+    "slotCapacity": 5000
+}
+}

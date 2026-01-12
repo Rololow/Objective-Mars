@@ -1,0 +1,31 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 8.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:water_bucket",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:carbonsteel_dust",
+      "count": 16.0
+    },
+    "result": "zoe:actuated_serum"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:volt",
+      "amplifier": 1.0
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amplifier": 0.005
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.2
+}

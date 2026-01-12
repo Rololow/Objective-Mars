@@ -1,0 +1,31 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_dust",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:iron_ingot",
+      "count": 16.0
+    },
+    "result": "zoe:weighted_palms"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "amplifier": 1.75
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "amplifier": 0.15
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.1
+}

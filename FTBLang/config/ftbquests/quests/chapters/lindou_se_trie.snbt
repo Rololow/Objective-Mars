@@ -1,0 +1,360 @@
+{
+	autofocus_id: "071032533B2FFC74"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "lindou_se_trie"
+	group: "0786A628D15FD058"
+	id: "411AB94A556ACC9C"
+	images: [{
+		height: 1.0d
+		image: "create:item/electron_tube"
+		rotation: 0.0d
+		width: 1.0d
+		x: -4.0d
+		y: -3.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["429EAF80DEFCD4D6"]
+			id: "1E250E2D3D159D4B"
+			tasks: [{
+				id: "02BC4968BE141443"
+				item: "createaddition:copper_wire"
+				title: "{ftbquests.chapter.lindou_se_trie.quest1.task_+197113197911872579.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lindou_se_trie.quest1.title}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41AF86146AAE0BDA"]
+			id: "071032533B2FFC74"
+			rewards: [{
+				count: 16
+				id: "7DB1632A30E6C54B"
+				item: "create:track"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "47DB24F14E8AD99A"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "0D6D8DE6CFBD38C4"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E250E2D3D159D4B"]
+			id: "4FCFA090D2383989"
+			tasks: [{
+				id: "0C49DB20E0671489"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FCFA090D2383989"]
+			id: "2C4F39CEAD672F06"
+			rewards: [{
+				count: 4
+				id: "5B94414902B2A4C6"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06EBD55A6FE68393"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41AF86146AAE0BDA"]
+			id: "429EAF80DEFCD4D6"
+			size: 1.5d
+			tasks: [{
+				id: "4D1180BB373280FE"
+				item: "createaddition:electrum_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"569291F6DCECDF9B"
+				"0443E5266741ACFA"
+			]
+			icon: "ad_astra:oil_bucket"
+			id: "6F6425741FE53E22"
+			tasks: [
+				{
+					id: "1512761EA3D40642"
+					item: "tfmg:pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3793B8CCCCD43B97"
+					item: "tfmg:pumpjack_hammer_part"
+					type: "item"
+				}
+				{
+					id: "173C5571EFE4C1B8"
+					item: "tfmg:pumpjack_hammer_connector"
+					type: "item"
+				}
+				{
+					id: "4576E39907D18BFC"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "53581C4AB2CD91B3"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "6BCDAE17118E3765"
+					item: "tfmg:machine_input"
+					type: "item"
+				}
+				{
+					id: "590731E79A4C3D1F"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					id: "052BA42E6725B262"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.lindou_se_trie.quest6.title}"
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F6425741FE53E22"]
+			icon: "tfmg:steel_distillation_controller"
+			id: "21E083E8149012BA"
+			rewards: [{
+				count: 4
+				id: "7F00BFB27856B581"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "514A05B4DA769435"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 52L
+					id: "5EFC38506099AD41"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2B25D9984B0B82F4"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3F11076D8E5321CF"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "511C28D779E39131"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21E083E8149012BA"]
+			id: "7A749D2554FB556A"
+			size: 1.25d
+			tasks: [{
+				id: "2658E9CF600D7A58"
+				item: "tfmg:diesel_engine"
+				type: "item"
+			}]
+			x: -15.625d
+			y: -3.125d
+		}
+		{
+			dependencies: ["4FCFA090D2383989"]
+			id: "38DB98DFFCF51257"
+			tasks: [{
+				id: "25B4D5A4647C162C"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"38DB98DFFCF51257"
+				"2C4F39CEAD672F06"
+			]
+			id: "0FD0B64F1C386612"
+			size: 1.25d
+			tasks: [{
+				id: "5AAC2D2095672F04"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41AF86146AAE0BDA"]
+			id: "7BB4CDD9CF4CEBE8"
+			rewards: [
+				{
+					count: 16
+					id: "7039644EDA3B78A8"
+					item: "tfmg:coal_coke_dust"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "102F0BA32F72663C"
+					item: "tfmg:blasting_mixture"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "572CF9B898A0C391"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "636D735D1E0F5C35"
+					item: "tfmg:fireproof_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4B69D622781661DD"
+					item: "tfmg:fireproof_brick_reinforcement"
+					type: "item"
+				}
+			]
+			x: -5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0759A1F15BDCADB7"]
+			id: "569291F6DCECDF9B"
+			tasks: [{
+				id: "5C75DA99DF0F134E"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BB4CDD9CF4CEBE8"]
+			id: "0759A1F15BDCADB7"
+			rewards: [
+				{
+					id: "77500742C5A69845"
+					item: "tfmg:ingot_mold"
+					type: "item"
+				}
+				{
+					id: "4EA839C91B3419B8"
+					item: "tfmg:block_mold"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "27EFDD0BE373AB9A"
+					item: "tfmg:casting_spout"
+					type: "item"
+				}
+				{
+					id: "2E06B905118CF7B4"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E250E2D3D159D4B"]
+			id: "1A2B32B2363FB7FE"
+			rewards: [{
+				id: "6B4DDA7935703FB5"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7949D972624C00D6"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+				{
+					id: "1C295503B040E12C"
+					item: "exposure:camera"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["071032533B2FFC74"]
+			id: "0443E5266741ACFA"
+			tasks: [
+				{
+					count: 2L
+					id: "70C3B8650FE0A8DA"
+					item: { Count: 2, id: "create:railway_casing" }
+					type: "item"
+				}
+				{
+					id: "19DEADDECC0D4AFF"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.lindou_se_trie.quest15.title}"
+			x: -8.5d
+			y: -4.5d
+		}
+	]
+	title: "{ftbquests.chapter.lindou_se_trie.title}"
+}

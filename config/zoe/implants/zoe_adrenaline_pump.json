@@ -1,0 +1,31 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:water_bucket",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:copper_wire",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 16.0
+    },
+    "result": "zoe:adrenaline_pump"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "amplifier": 1.0
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amplifier": 0.01
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.4
+}

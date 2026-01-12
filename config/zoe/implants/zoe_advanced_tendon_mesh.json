@@ -1,0 +1,28 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:string",
+      "count": 32.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:silicon",
+      "count": 8.0
+    },
+    "result": "zoe:advanced_tendon_mesh"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.attack_speed",
+    "attribute1amplifier": 0.02,
+    "attribute2": "forge:entity_reach",
+    "attribute2amplifier": 0.1,
+    "attribute3": "minecraft:generic.attack_damage",
+    "attribute3amplifier": -0.1,
+    "attribute4": "zoe:defense",
+    "attribute4amplifier": -0.1
+  },
+  "update": true
+}

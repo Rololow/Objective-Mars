@@ -1,0 +1,24 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:string",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:charcoal",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:sugar",
+      "count": 16.0
+    },
+    "result": "zoe:plastic_underskin"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.armor",
+    "attribute1amplifier": 1.0,
+    "attribute2": "zoe:defense",
+    "attribute2amplifier": 0.5
+  },
+  "update": true
+}

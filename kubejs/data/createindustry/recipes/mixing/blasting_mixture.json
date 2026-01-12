@@ -1,0 +1,22 @@
+
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "create:crushed_raw_iron"
+      },
+      {
+        "item": "create:crushed_raw_iron"
+      },
+      {
+        "item": "create:crushed_raw_iron"
+      }
+    ],
+    "results": [
+      {
+        "item": "createindustry:blasting_mixture",
+        "count": 3
+      }
+    ]
+  
+  }

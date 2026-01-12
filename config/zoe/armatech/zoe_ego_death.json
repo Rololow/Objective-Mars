@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "blueprint": {
+      "ingredient": "minecraft:dragon_egg"
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:enchanted_golden_apple",
+      "count": 7.0
+    },
+    "middleSlot": {
+      "ingredient": "zoe:abyssal_board",
+      "count": 7.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:nether_star",
+      "count": 7.0
+    },
+    "result": "zoe:ego_death"
+  },
+  "attributes": {},
+  "update": true
+}

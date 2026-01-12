@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ad_astra:lunar_wastelands",
+  "features": [
+    "mekanism:ore_lead_normal"
+  ],
+  "step": "underground_ores"
+}

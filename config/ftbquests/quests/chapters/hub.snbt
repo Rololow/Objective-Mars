@@ -1,0 +1,46 @@
+{
+	autofocus_id: "18C48326426FCC51"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hub"
+	group: "788E8CC443E9E0DF"
+	id: "1462DB1C3CCEEE0B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["683CBF8D4D825AE7"]
+			id: "56DD35E4500F36E4"
+			tasks: [{
+				id: "10EA7027631E8817"
+				item: "kubejs:magnifier_knowledge"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["280525FD1747B992"]
+			id: "456AA6E698C2702D"
+			tasks: [{
+				id: "04D446EA82637ECD"
+				item: "kubejs:cartography_knowledge_note"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E33667A51E6D73F"]
+			id: "2AA847FD62AE1621"
+			tasks: [{
+				id: "51CBB0869DA4DBEA"
+				item: "kubejs:knowledge_stew_bowl"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.hub.title}"
+}

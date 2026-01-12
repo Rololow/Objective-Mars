@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createindustry:sulfur"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:dust_sulfur"
+    },
+    {
+      "item": "mekanism:dust_sulfur",
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 250
+
+}

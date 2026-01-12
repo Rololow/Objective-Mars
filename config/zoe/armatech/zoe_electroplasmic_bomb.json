@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "blueprint": {
+      "ingredient": "zoe:electroplasmic_bomb_blueprint"
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 8.0
+    },
+    "middleSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 8.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 16.0
+    },
+    "result": "zoe:electroplasmic_bomb"
+  },
+  "attributes": {},
+  "update": true
+}

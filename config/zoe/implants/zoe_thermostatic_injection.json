@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:lava_bucket",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:water_bucket",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 32.0
+    },
+    "result": "zoe:thermostatic_injection"
+  },
+  "attributes": [],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 2.0
+}

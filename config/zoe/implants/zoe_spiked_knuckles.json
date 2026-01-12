@@ -1,0 +1,31 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:iron_sword",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 4.0
+    },
+    "result": "zoe:spiked_knuckles"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "amplifier": 1.25
+    },
+    {
+      "attribute": "zoe:sabotage",
+      "amplifier": 0.25
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.0
+}

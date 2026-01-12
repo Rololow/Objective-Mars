@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#": {
+        "tag": "ad_astra_platform:steel_plates"
+      },
+      "|": {
+        "tag": "ad_astra_platform:iron_rods"
+      }, 
+        "P": {
+            "item": "pneumaticcraft:printed_circuit_board"
+        }
+    },
+    "pattern": [
+      "|||",
+      "|#|",
+      "|P|"
+    ],
+    "result": {
+      "item": "ad_astra:engine_frame"
+    }
+  }

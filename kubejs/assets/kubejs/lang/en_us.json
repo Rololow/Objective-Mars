@@ -1,0 +1,24 @@
+{
+    "item.kubejs.cartography_knowledge_note" : "Cartography Knowledge Note",
+    "item.kubejs.magnifier_knowledge" : "Knowledge Magnifier",
+    "item.kubejs.knowledge_stew_bowl" : "Knowledge Stew Bowl",
+
+    "item.kubejs.cartography_knowledge_note.description": "§7§oThis note will give you the knowledge of the land you explore",
+    "item.kubejs.magnifier_knowledge.description" : "§7§oThis magnifier will give you the knowledge of the world you see",
+    "item.kubejs.knowledge_stew_bowl.description" : "§7§oThis stew will give you the knowledge of the food you eat",
+
+    "fluid.kubejs.knowledge_stew" : "Knowledge Stew",
+
+    "item.kubejs.rough_wrought_iron" : "Wrought Iron Ingot",
+    "item.kubejs.rough_wrought_iron.description" : "§7§oThis iron is rough and unrefined",
+
+
+    "block.kubejs.moon_fluorite_ore" : "Moon Fluorite Ore",
+    "block.kubejs.moon_lead_ore" : "Moon Lead Ore",
+    "block.kubejs.moon_uranium_ore" : "Moon Uranium Ore",
+
+    "block.kubejs.flint_pile_1": "Flint Pile",
+    "block.kubejs.flint_pile_2": "Flint Pile",
+    "block.kubejs.flint_pile_3": "Flint Pile"
+
+}

@@ -1,0 +1,14 @@
+{
+    "type": "hexerei:cauldron_emptying",
+    "input": {
+        "item": "minecraft:bowl"
+    },
+    "fluid": {
+        "fluid": "kubejs:knowledge_stew",
+        "amount": 250
+    },
+    "output": {
+        "item": "kubejs:knowledge_stew_bowl",
+        "count": 1
+    }
+}

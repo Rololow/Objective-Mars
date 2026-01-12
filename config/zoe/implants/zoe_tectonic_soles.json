@@ -1,0 +1,35 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:copper_ingot",
+      "count": 32.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:handsaw",
+      "count": 1.0
+    },
+    "result": "zoe:tectonic_soles"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "amplifier": 0.1
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "amplifier": 0.25
+    },
+    {
+      "attribute": "zoe:discharge",
+      "amplifier": 0.5
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.1
+}

@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:heart_of_the_sea",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:iron_ingot",
+      "count": 32.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:dispenser",
+      "count": 8.0
+    },
+    "result": "zoe:synthetic_lungs"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.movement_speed",
+    "attribute1amplifier": 0.01
+  },
+  "update": true
+}

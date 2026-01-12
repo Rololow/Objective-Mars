@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Robin/curseforge/minecraft/Instances/gogo 2.0 (1)/saves/New World (5)
+}
+

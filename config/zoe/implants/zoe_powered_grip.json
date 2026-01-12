@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:amethyst_shard",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone_torch",
+      "count": 16.0
+    },
+    "result": "zoe:powered_grip"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:volt",
+      "amplifier": 0.35
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.0
+}

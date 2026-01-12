@@ -1,0 +1,31 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:spider_eye",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:glass",
+      "count": 16.0
+    },
+    "result": "zoe:nocturne_optics"
+  },
+  "attributes": [
+    {
+      "attribute": "forge:entity_reach",
+      "amplifier": 0.15
+    },
+    {
+      "attribute": "forge:block_reach",
+      "amplifier": 0.35
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.0
+}

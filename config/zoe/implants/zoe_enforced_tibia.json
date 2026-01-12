@@ -1,0 +1,26 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:bone",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:string",
+      "count": 16.0
+    },
+    "result": "zoe:enforced_tibia"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.movement_speed",
+    "attribute1amplifier": 0.02,
+    "attribute2": "minecraft:generic.armor_toughness",
+    "attribute2amplifier": 0.5,
+    "attribute3": "forge:step_height_addition",
+    "attribute3amplifier": 0.08
+  },
+  "update": true
+}

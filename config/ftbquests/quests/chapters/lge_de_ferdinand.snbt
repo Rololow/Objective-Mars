@@ -1,0 +1,361 @@
+{
+	autofocus_id: "3E686EB746270B09"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "lge_de_ferdinand"
+	group: "0786A628D15FD058"
+	id: "42D79581A9EB8462"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6229B5DA4E1B4221"
+				"1BCD092A4E420F19"
+				"075738F211F9C8F9"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest1.description1}"]
+			id: "3E686EB746270B09"
+			size: 1.5d
+			tasks: [{
+				id: "6A8D49F6B9825D63"
+				title: "{ftbquests.chapter.lge_de_ferdinand.quest1.task_+7677874263759674723.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest1.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E686EB746270B09"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest2.description1}"]
+			id: "7F093FD9B2F7D3A8"
+			rewards: [{
+				count: 16
+				id: "2F086EB6C39F8176"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7287EBAA08772351"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest2.title}"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E686EB746270B09"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest3.description1}"]
+			id: "23A86583D2BE6FB5"
+			tasks: [{
+				consume_items: false
+				id: "776E50B700C50D7A"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "de469246-39ae-47c4-b7cc-664e0c0b202d"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest3.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23A86583D2BE6FB5"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest4.description1}"]
+			id: "58184F7B075BF3DE"
+			rewards: [{
+				id: "0490AE01437DBA21"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0D07FB58B0845DBD"
+				item: "tetra:basic_workbench"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest4.title}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F093FD9B2F7D3A8"]
+			id: "1B61B214E0938E21"
+			tasks: [{
+				consume_items: false
+				id: "21F8F4947DEB39C5"
+				item: "create:zinc_ingot"
+				title: "{ftbquests.chapter.lge_de_ferdinand.quest5.task_+2447975316080769477.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest5.title}"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B61B214E0938E21"]
+			id: "69953582E16A9202"
+			rewards: [{
+				auto: "invisible"
+				id: "19815288CC249A62"
+				ignore_reward_blocking: true
+				stage: "middleage"
+				title: "{ftbquests.chapter.lge_de_ferdinand.quest6.reward_1837840870437853794.title}"
+				type: "gamestage"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "693FA00C397D7EC3"
+				item: "create:brass_ingot"
+				title: "{ftbquests.chapter.lge_de_ferdinand.quest6.task_+7583956271879782083.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest6.title}"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3E686EB746270B09"
+				"7F093FD9B2F7D3A8"
+			]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest7.description1}"]
+			id: "05461388CB8DD505"
+			rewards: [
+				{
+					count: 16
+					id: "21BA5BE78E9BBF90"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3FEB1BDBD6ABF4DB"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DC032420A83BA99"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "797EDE3CEBAF2BC0"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest7.title}"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05461388CB8DD505"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest8.description1}"]
+			id: "62FCA11D44DE1F2A"
+			rewards: [{
+				id: "144DCD08D84E3E31"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "073E143017AFAA30"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest8.title}"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05461388CB8DD505"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest9.description1}"]
+			id: "5CBCA1C4F8D3EC94"
+			rewards: [{
+				id: "5B13AE1DCF54BC78"
+				item: "create:goggles"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0633DD3660CEB661"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest9.title}"
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["05461388CB8DD505"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest10.description1}"]
+			id: "36FFDF51E41D21B8"
+			rewards: [{
+				id: "6C89579D5D9D3098"
+				item: "create:wrench"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "6BD5E8DECEEEFBB4"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest10.title}"
+			x: -0.625d
+			y: 3.75d
+		}
+		{
+			dependencies: ["58184F7B075BF3DE"]
+			icon: "tetra:forged_workbench"
+			id: "5A3C41D4E0DE3471"
+			tasks: [{
+				id: "52A67E60032F3BF2"
+				structure: "tetra:regular_ruin"
+				type: "structure"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest11.title}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E686EB746270B09"]
+			description: [
+				"{ftbquests.chapter.lge_de_ferdinand.quest12.description1}"
+				"{ftbquests.chapter.lge_de_ferdinand.quest12.description2}"
+			]
+			id: "683CBF8D4D825AE7"
+			tasks: [{
+				id: "3DBF83E3221B7788"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest12.title}"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E686EB746270B09"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest13.description1}"]
+			id: "135C35A39CA70BE5"
+			tasks: [{
+				id: "58CE7C2BF9801EB3"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							1892229721
+							-483373155
+							-1348393749
+							-1662848041
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest13.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["135C35A39CA70BE5"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest14.description1}"]
+			id: "1CBC2483AEE1BDBC"
+			tasks: [{
+				id: "617BB3B13D74DEFB"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest14.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32250C6E21126456"]
+			id: "76F66F36642CEE78"
+			tasks: [{
+				id: "48A27430D91662B7"
+				item: "smallships:sail"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76F66F36642CEE78"]
+			id: "32BE56CE3A6F4812"
+			size: 1.25d
+			tasks: [{
+				id: "5C1DFF271582CA98"
+				item: {
+					Count: 1
+					id: "smallships:oak_cog"
+					tag: { }
+				}
+				title: "{ftbquests.chapter.lge_de_ferdinand.quest18.task_+6637741969143679640.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest18.title}"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E686EB746270B09"]
+			description: [
+				"{ftbquests.chapter.lge_de_ferdinand.quest19.description1}"
+				""
+				"{ftbquests.chapter.lge_de_ferdinand.quest19.description2}"
+			]
+			id: "32250C6E21126456"
+			rewards: [{
+				id: "031814087960B238"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "{ftbquests.chapter.lge_de_ferdinand.quest19.subtitle}"
+			tasks: [{
+				id: "29213205D8F69770"
+				item: "fishermens_trap:fishtrap"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest19.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CBC2483AEE1BDBC"]
+			description: ["{ftbquests.chapter.lge_de_ferdinand.quest21.description1}"]
+			id: "280525FD1747B992"
+			tasks: [{
+				id: "57004E7F9B8653BB"
+				item: "kubejs:cartography_knowledge_note"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.lge_de_ferdinand.quest21.title}"
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.lge_de_ferdinand.title}"
+}

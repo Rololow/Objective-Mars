@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:lightning_rod",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 8.0
+    },
+    "result": "zoe:reactive_dermis"
+  },
+  "attributes": {
+    "attribute1": "zoe:discharge",
+    "attribute1amplifier": 0.5
+  },
+  "update": true
+}

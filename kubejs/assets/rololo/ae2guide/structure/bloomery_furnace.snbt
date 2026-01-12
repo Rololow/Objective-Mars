@@ -1,0 +1,32 @@
+{
+  size: [3,3,2],
+  data: [
+    {state: "minecraft:mud_bricks",pos: [0,0,1]},
+    {state: "minecraft:mud_bricks",pos: [1,0,1]},
+    {state: "minecraft:mud_bricks",pos: [2,0,1]},
+    {state: "minecraft:mud_bricks",pos: [0,1,0]},
+    {state: "minecraft:mud_bricks",pos: [0,1,1]},
+    {state: "minecraft:mud_bricks",pos: [1,1,1]},
+    {state: "minecraft:mud_bricks",pos: [2,1,0]},
+    {state: "minecraft:mud_bricks",pos: [2,1,1]},
+    {state: "minecraft:mud_bricks",pos: [0,2,0]},
+    {state: "minecraft:mud_bricks",pos: [0,2,1]},
+    {state: "minecraft:mud_bricks",pos: [1,2,0]},
+    {state: "minecraft:mud_bricks",pos: [1,2,1]},
+    {state: "minecraft:mud_bricks",pos: [2,2,0]},
+    {state: "minecraft:mud_bricks",pos: [2,2,1]},
+    {state: "mm:bloomery_furnace_item_output",pos: [0,0,0],nbt: {ForgeCaps: {},id: "mm:bloomery_furnace_item_output",MMStorage: {handler: [{id: "minecraft:air",tag: {},Count: 0},{id: "minecraft:air",Count: 0}]}}},
+    {state: "minecraft:campfire{waterlogged:false,signal_fire:false,facing:south,lit:true}",pos: [1,0,0],nbt: {CookingTotalTimes: [I;0,0,0,0],CookingTimes: [I;0,0,0,0],ForgeCaps: {},id: "minecraft:campfire",Items: []}},
+    {state: "mm:bloomery_furnace_item_input",pos: [2,0,0],nbt: {ForgeCaps: {},id: "mm:bloomery_furnace_item_input",MMStorage: {handler: [{id: "minecraft:air",tag: {},Count: 0},{id: "minecraft:air",tag: {},Count: 0}]}}},
+    {state: "mm:bloomery_furnace{facing:south}",pos: [1,1,0],nbt: {filler: 1b,ForgeCaps: {},id: "mm:bloomery_furnace",structureId: "rololo:bloomery_furnace"}}
+  ],
+  palette: [
+    "minecraft:mud_bricks",
+    "mm:bloomery_furnace_item_output",
+    "minecraft:campfire{waterlogged:false,signal_fire:false,facing:south,lit:true}",
+    "mm:bloomery_furnace_item_input",
+    "mm:bloomery_furnace{facing:south}"
+  ],
+  entities: [],
+  DataVersion: 3337
+}

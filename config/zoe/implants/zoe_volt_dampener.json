@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:copper_wire",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:deepslate",
+      "count": 64.0
+    },
+    "result": "zoe:volt_dampener"
+  },
+  "attributes": {
+    "attribute1": "zoe:stability",
+    "attribute1amplifier": 1.0
+  },
+  "update": true
+}

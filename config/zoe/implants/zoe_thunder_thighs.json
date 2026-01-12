@@ -1,0 +1,39 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:copper_ingot",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 4.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:copper_wire",
+      "count": 4.0
+    },
+    "result": "zoe:thunder_thighs"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amplifier": 0.01
+    },
+    {
+      "attribute": "forge:step_height_addition",
+      "amplifier": 0.05
+    },
+    {
+      "attribute": "zoe:volt",
+      "amplifier": 0.25
+    },
+    {
+      "attribute": "forge:swim_speed",
+      "amplifier": -0.025
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 2.0
+}

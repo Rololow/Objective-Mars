@@ -1,0 +1,377 @@
+{
+	autofocus_id: "247D3229605475A1"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "urbanisme"
+	group: "0786A628D15FD058"
+	id: "4626862127F2E3F6"
+	images: [{
+		height: 10.0d
+		image: "chemlib:textures/painting/periodic_table.png"
+		rotation: 0.0d
+		width: 18.759124087591243d
+		x: 5.0d
+		y: 8.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7A749D2554FB556A"
+				"0FD0B64F1C386612"
+			]
+			id: "0AABE8FC072FC0A7"
+			rewards: [
+				{
+					count: 10
+					id: "50AFAF055C251D0F"
+					item: "automobility:dash_panel"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "55767EF30219C528"
+					item: "automobility:slope"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25ABCDA04E9100F2"
+					item: "automobility:steep_slope"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "4E8978AA3CFF5FD0"
+					item: "automobility:auto_mechanic_table"
+					type: "item"
+				}
+				{
+					id: "3F295EB2AA453BFE"
+					item: "automobility:automobile_assembler"
+					type: "item"
+				}
+				{
+					id: "35AF8AB344F8F893"
+					item: "automobility:crowbar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.urbanisme.quest1.title}"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BBAE658AE47C161"]
+			id: "043514FF99E3AB06"
+			tasks: [{
+				id: "01ACEAA26A8A35D6"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2647BB23C407BCF4"
+				"4187B193778DBA43"
+			]
+			id: "247D3229605475A1"
+			tasks: [{
+				id: "671C68802C143644"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["247D3229605475A1"]
+			id: "7BCE9536F0E0132B"
+			tasks: [{
+				id: "4B7B666CC612C04E"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.urbanisme.quest4.title}"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["282F2498C9F681E4"]
+			id: "2647BB23C407BCF4"
+			tasks: [
+				{
+					id: "452EE1BC83A31A30"
+					item: "computercraft:computer_normal"
+					type: "item"
+				}
+				{
+					id: "55F10F1D543857F3"
+					item: "computercraft:monitor_normal"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7A749D2554FB556A"
+				"0FD0B64F1C386612"
+			]
+			id: "139F0CAC3A89CBFD"
+			size: 1.25d
+			tasks: [{
+				id: "0262F186696D2CDA"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1211E6EE878F03BC"
+				"5392819589934713"
+			]
+			id: "282F2498C9F681E4"
+			tasks: [
+				{
+					id: "411878A3E15C795C"
+					item: "pneumaticcraft:transistor"
+					type: "item"
+				}
+				{
+					id: "2D5EC561BED91943"
+					item: "pneumaticcraft:capacitor"
+					type: "item"
+				}
+				{
+					id: "708A55A20B9B3B6A"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["139F0CAC3A89CBFD"]
+			id: "1211E6EE878F03BC"
+			tasks: [
+				{
+					id: "06D6C8A862DD8352"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "342BEDF0AD8431EC"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+				{
+					id: "71A2081029494237"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					id: "76484259948A331B"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["139F0CAC3A89CBFD"]
+			id: "5392819589934713"
+			tasks: [{
+				id: "3D9DB94E596E6ACC"
+				item: "tfmg:plastic_sheet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["247D3229605475A1"]
+			hide_dependency_lines: true
+			id: "1B456BD714C4784B"
+			tasks: [
+				{
+					id: "2838C11C5EB9AE20"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3028B8146BC77804"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6873B70DB8ECC58F"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD41EC3E74B3B05"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["247D3229605475A1"]
+			hide_dependency_lines: true
+			id: "1A72034875EEC369"
+			tasks: [
+				{
+					id: "37B0AE66A63DC055"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C190683841F4204"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0AABE8FC072FC0A7"]
+			id: "3BBAE658AE47C161"
+			tasks: [
+				{
+					id: "33B32D6721F4F7D8"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+				{
+					id: "03A6ACEA259E229F"
+					item: "immersive_aircraft:propeller"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BCE9536F0E0132B"]
+			id: "276E70DE9F1742DA"
+			size: 5.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "6FE011264DDED698"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.urbanisme.quest13.title}"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["043514FF99E3AB06"]
+			id: "4187B193778DBA43"
+			tasks: [{
+				id: "1292D64DAA636F51"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["276E70DE9F1742DA"]
+			description: ["{ftbquests.chapter.urbanisme.quest15.description1}"]
+			hide_until_deps_visible: true
+			id: "37AEE2D37A8AFD8E"
+			rewards: [{
+				auto: "invisible"
+				id: "11E6BCC918418CCD"
+				ignore_reward_blocking: true
+				stage: "future"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "19C416F1C6FCDC4F"
+				title: "{ftbquests.chapter.urbanisme.quest15.task_+1856634174064876623.title}"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23A80119A5B3B283"]
+			id: "441C8CFC29C06860"
+			rewards: [{
+				count: 16
+				id: "14B8D7ECE735CEA2"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0EBB624112A2AAFB"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "279754C5DA84AEEE"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mars.quest2.title}"
+			x: -5.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.urbanisme.title}"
+}

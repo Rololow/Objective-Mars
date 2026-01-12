@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/kiln_fluid_output"
+    }
+  }
+}

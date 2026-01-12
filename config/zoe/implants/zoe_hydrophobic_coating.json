@@ -1,0 +1,39 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:kelp",
+      "count": 64.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:leather",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:white_dye",
+      "count": 16.0
+    },
+    "result": "zoe:hydrophobic_coating"
+  },
+  "attributes": [
+    {
+      "attribute": "forge:swim_speed",
+      "amplifier": 0.1
+    },
+    {
+      "attribute": "zoe:discharge",
+      "amplifier": 0.75
+    },
+    {
+      "attribute": "minecraft:generic.armor",
+      "amplifier": 0.5
+    },
+    {
+      "attribute": "zoe:plating",
+      "amplifier": 0.25
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.25
+}

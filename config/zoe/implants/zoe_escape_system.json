@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:camoguard",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:carbonsteel_dust",
+      "count": 16.0
+    },
+    "result": "zoe:escape_system"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:sabotage",
+      "amplifier": 1.0
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.5
+}

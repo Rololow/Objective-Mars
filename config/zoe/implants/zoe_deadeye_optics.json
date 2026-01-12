@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:target",
+      "count": 4.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 1.0
+    },
+    "result": "zoe:deadeye_optics"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:sabotage",
+      "amplifier": 0.75
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.5
+}

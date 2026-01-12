@@ -1,0 +1,15 @@
+{
+	id: "011F7A0EEE805D43"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 16, item: "handcrafted:acacia_board" }
+		{ count: 16, item: "handcrafted:birch_board" }
+		{ count: 16, item: "handcrafted:dark_oak_board" }
+		{ count: 16, item: "handcrafted:jungle_board" }
+		{ count: 16, item: "handcrafted:mangrove_board" }
+		{ count: 16, item: "handcrafted:oak_board" }
+		{ count: 16, item: "handcrafted:spruce_board" }
+	]
+	title: "{ftbquests.loot_table_80917522865478979.title}"
+}

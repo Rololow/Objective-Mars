@@ -1,0 +1,35 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_dust",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:bone_meal",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 16.0
+    },
+    "result": "zoe:dense_marrow"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "amplifier": 0.25
+    },
+    {
+      "attribute": "zoe:plating",
+      "amplifier": 1.0
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "amplifier": -0.05
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.25
+}

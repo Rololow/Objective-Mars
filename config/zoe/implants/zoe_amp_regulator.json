@@ -1,0 +1,24 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:copper_wire",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 4.0
+    },
+    "result": "zoe:amp_regulator"
+  },
+  "attributes": {
+    "attribute1": "zoe:discharge",
+    "attribute1amplifier": 1.5,
+    "attribute2": "zoe:stability",
+    "attribute2amplifier": 0.2
+  },
+  "update": true
+}

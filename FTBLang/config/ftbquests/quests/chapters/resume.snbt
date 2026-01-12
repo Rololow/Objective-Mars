@@ -1,0 +1,194 @@
+{
+	autofocus_id: "5BED615807B3A1FC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resume"
+	group: "0E8A50F80F03D6C9"
+	id: "1C3A343299BEC015"
+	images: [{
+		height: 4.0d
+		image: "ad_astra:textures/painting/mars.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 0.0d
+		y: -1.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3AA3D164CA3066C4"
+				"7BCE9536F0E0132B"
+			]
+			icon: "ad_astra:cheese"
+			id: "0FD14330AE326A2A"
+			rewards: [{
+				count: 32
+				id: "14143BAE2E86B287"
+				item: "create:experience_block"
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				id: "321FE6BA91EB4424"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.resume.quest1.title}"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49251EFD5BAC1B71"]
+			icon: "tough_beginnings:block_of_wood"
+			id: "33DCC1FB56BE6B78"
+			rewards: [{
+				count: 8
+				id: "305FDB32593BF3F4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29A78A191EA813E5"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.resume.quest2.title}"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"33DCC1FB56BE6B78"
+				"1BCD092A4E420F19"
+				"6229B5DA4E1B4221"
+				"075738F211F9C8F9"
+			]
+			icon: "minecraft:iron_nugget"
+			id: "3E91EC29B3B784C1"
+			rewards: [{
+				count: 16
+				id: "51827CCE2294EE75"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D8CFE746E70CBEE"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.resume.quest3.title}"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3E91EC29B3B784C1"
+				"69953582E16A9202"
+				"5CBCA1C4F8D3EC94"
+				"36FFDF51E41D21B8"
+			]
+			icon: {
+				Count: 1
+				id: "iceandfire:armor_silver_metal_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FFB7A53AF90D246"
+			rewards: [{
+				count: 32
+				id: "2A99807B7C8D9877"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70115C1785026670"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.resume.quest4.title}"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7FFB7A53AF90D246"
+				"02FD986F8D068C8A"
+				"41AF86146AAE0BDA"
+			]
+			icon: "tfmg:gasoline_engine"
+			id: "5BED615807B3A1FC"
+			rewards: [{
+				count: 64
+				id: "0471EB3773A16144"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44BEA08666084187"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.resume.quest5.title}"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5BED615807B3A1FC"
+				"7A749D2554FB556A"
+				"0FD0B64F1C386612"
+			]
+			icon: {
+				Count: 1
+				id: "automobility:automobile"
+				tag: {
+					Automobile: {
+						engine: "automobility:stone"
+						frame: "automobility:wooden_motorcar"
+						isPrefab: 1b
+						wheels: "automobility:carriage"
+					}
+					display: {
+						Name: "{\"translate\":\"prefab.automobility.wooden_motorcar\",\"italic\":\"false\"}"
+					}
+				}
+			}
+			id: "3AA3D164CA3066C4"
+			rewards: [
+				{
+					count: 16
+					id: "7F10736F79D587B1"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "707CCCD766DBC718"
+					ignore_reward_blocking: true
+					stage: "modern"
+					title: "{ftbquests.chapter.resume.quest6.reward_8105578654875764504.title}"
+					type: "gamestage"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "19DB52B3C8B94864"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.resume.quest6.title}"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FD14330AE326A2A"]
+			id: "241F72035103DE45"
+			size: 0.5d
+			tasks: [{
+				id: "7D14BDFE10C4DE09"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+	]
+	title: "{ftbquests.chapter.resume.title}"
+}

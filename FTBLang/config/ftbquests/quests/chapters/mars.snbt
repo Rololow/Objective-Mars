@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "mars"
+	group: "0786A628D15FD058"
+	id: "6B7321A08E30E86A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BCE9536F0E0132B"]
+			id: "23A80119A5B3B283"
+			size: 1.25d
+			tasks: [{
+				id: "6099FF994D873C70"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mars.quest1.title}"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23A80119A5B3B283"]
+			id: "441C8CFC29C06860"
+			rewards: [{
+				count: 16
+				id: "14B8D7ECE735CEA2"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0EBB624112A2AAFB"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "279754C5DA84AEEE"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mars.quest2.title}"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23A80119A5B3B283"]
+			id: "09B1463CD0FF5635"
+			rewards: [{
+				id: "17B222E244012CFE"
+				item: "industrialforegoing:laser_lens7"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "674AFEA8D23DA75F"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B432DDF4EEC18F8"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mars.quest3.title}"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23A80119A5B3B283"]
+			id: "6EC595328C6FDDB5"
+			rewards: [{
+				count: 8
+				id: "01A09FA9060127F0"
+				item: "mekanism:elite_control_circuit"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 24L
+					id: "730022F52D4BD6C4"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6B41912DDBBC838B"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "089F759A66D103EC"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "58444F7C9F47BD58"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "26AE0433A8167CBE"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "40E7EA5AC87DA594"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mars.quest4.title}"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EC595328C6FDDB5"]
+			id: "45F60A0366774558"
+			tasks: [
+				{
+					count: 36L
+					id: "64AEB07FE35FF38C"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "7B105F94BB0A2368"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "008C666E85765D8F"
+					item: "mekanismgenerators:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "32F462FB83EE6004"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E440CDF0D54CA3D"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mars.quest5.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45F60A0366774558"]
+			id: "58C9DDC0C8E99E47"
+			tasks: [
+				{
+					count: 60L
+					id: "3E9CE9D7C287BD98"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7EDB1B7E34C15423"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "00D6288635A67EA0"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					count: 123L
+					id: "33BE3F73252EFD34"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mars.quest6.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58C9DDC0C8E99E47"]
+			id: "4581B81C2F968181"
+			size: 1.5d
+			tasks: [{
+				id: "6EFD02ED11EF9911"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4581B81C2F968181"]
+			id: "07DA4391DCA1B295"
+			tasks: [{
+				id: "2998A10E04BB39E6"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07DA4391DCA1B295"]
+			id: "5A09E13343C1CEFC"
+			size: 5.0d
+			tasks: [{
+				id: "05723B8189A2CC06"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4581B81C2F968181"]
+			id: "498ADB2FB4C11F40"
+			rewards: [{
+				id: "6481121A51C974D6"
+				item: "unusualprehistory:dna_fridge"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E9E36B3FE268960"
+					item: "unusualprehistory:analyzer"
+					type: "item"
+				}
+				{
+					id: "6B77469CB2B71E1E"
+					item: "unusualprehistory:cultivator"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mars.quest10.title}"
+			x: 7.0d
+			y: -2.5d
+		}
+	]
+	title: "{ftbquests.chapter.mars.title}"
+}

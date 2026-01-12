@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 4.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:magma_cream",
+      "count": 2.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:carbonsteel_dust",
+      "count": 16.0
+    },
+    "result": "zoe:nomex_padding"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:plating",
+      "amplifier": 0.15
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.0
+}

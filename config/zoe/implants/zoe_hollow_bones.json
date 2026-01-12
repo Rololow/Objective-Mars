@@ -1,0 +1,35 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:bone",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:handsaw",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 8.0
+    },
+    "result": "zoe:hollow_bones"
+  },
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "amplifier": 0.01
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "amplifier": 0.065
+    },
+    {
+      "attribute": "forge:step_height_addition",
+      "amplifier": 0.5
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.5
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/bloomery_furnace",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/bloomery_furnace",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/bloomery_furnace"
+    },
+    "facing=west": {
+      "model": "mm:block/bloomery_furnace",
+      "y": 90
+    }
+  }
+}

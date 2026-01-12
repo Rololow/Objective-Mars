@@ -1,0 +1,10 @@
+{
+  "id": "bloomery_furnace_item",
+  "controllerIds": "mm:bloomery_furnace",
+  "name": "Bloomery Item Hatch",
+  "type": "mm:item",
+  "config": {
+    "rows": 1,
+    "columns": 2
+  }
+}

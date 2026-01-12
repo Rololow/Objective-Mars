@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_dust",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 32.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 1.0
+    },
+    "result": "zoe:nanomeds"
+  },
+  "attributes": [],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.45
+}

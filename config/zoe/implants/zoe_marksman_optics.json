@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:target",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:amethyst_shard",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 32.0
+    },
+    "result": "zoe:marksman_optics"
+  },
+  "attributes": [],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.0
+}

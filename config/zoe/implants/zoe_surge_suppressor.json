@@ -1,0 +1,24 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:bone",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:lightning_rod",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:iron_ingot",
+      "count": 16.0
+    },
+    "result": "zoe:surge_suppressor"
+  },
+  "attributes": {
+    "attribute1": "zoe:stability",
+    "attribute1amplifier": 1.0,
+    "attribute2": "zoe:discharge",
+    "attribute2amplifier": 0.1
+  },
+  "update": true
+}

@@ -1,0 +1,26 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:rabbit_foot",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 8.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:bone",
+      "count": 16.0
+    },
+    "result": "zoe:virtual_pacemaker"
+  },
+  "attributes": {
+    "attribute1": "minecraft:generic.movement_speed",
+    "attribute1amplifier": 0.01,
+    "attribute2": "forge:step_height_addition",
+    "attribute2amplifier": 0.2,
+    "attribute3": "zoe:defense",
+    "attribute3amplifier": 0.25
+  },
+  "update": true
+}

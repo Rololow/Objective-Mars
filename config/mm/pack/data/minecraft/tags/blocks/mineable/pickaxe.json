@@ -1,0 +1,12 @@
+{
+  "values": [
+    "mm:bloomery_furnace",
+    "mm:kiln",
+    "mm:bloomery_furnace_item_input",
+    "mm:bloomery_furnace_item_output",
+    "mm:kiln_fluid_input",
+    "mm:kiln_fluid_output",
+    "mm:kiln_item_input",
+    "mm:kiln_item_output"
+  ]
+}

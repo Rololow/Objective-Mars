@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:x_iloveyou_x_hologram",
+      "count": 8.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:ender_eye",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:clock",
+      "count": 32.0
+    },
+    "bottomSlot": {
+      "ingredient": "zoe:carbonsteel_cog",
+      "count": 16.0
+    },
+    "result": "zoe:x_iloveyou_x"
+  },
+  "update": true
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/bloomery_furnace_item_output"
+    }
+  }
+}

@@ -1,0 +1,1419 @@
+{
+	bestiaryTabs: [
+		{
+			icon: {
+				id: "handcrafted:spider_trophy"
+				Count: 1b
+			}
+			defaultBackground: 0b
+			tabID: [I;
+				1639669238
+				-921154754
+				-1104964368
+				-716382916
+			]
+			renderTitle: 1b
+			title: "ennemies"
+			tabEntries: [
+				{
+					entries: [
+						{
+							pos_y_offset: 0
+							pos_x_offset: 0
+							pitch: 100.0d
+							speed_rotate: 1
+							yaw: 0.0d
+							auto_rotate: 1b
+							render_setting: {
+								size_y: 32
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 32
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 20.0d
+								autoSize_advanced: 0b
+							}
+							entryID: "entityBestiaryEntryContent"
+							entity: "minecraft:spider"
+							entryContentID: [I;
+								-1567950926
+								-242595066
+								-1543436881
+								-578533139
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "Spider"
+							render_setting: {
+								size_y: 18
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 2.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-1509395396
+								908411072
+								-1385256568
+								1490399560
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "❤ : 20"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								1331934929
+								342376513
+								-1804359148
+								-1105182014
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "☠ : 1 ⚔"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								308076590
+								-299743795
+								-2071007173
+								-1934505898
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: " "
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-1241548580
+								-536326315
+								-1817929478
+								127376777
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "Spawn : 🌘"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-1201956243
+								-846049301
+								-1616871468
+								-898361248
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "Biome : all"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								1130553666
+								-1000587264
+								-1118813938
+								-829889854
+							]
+						}
+					]
+					icon: {
+						id: "spelunkers_charm:rock"
+						Count: 1b
+					}
+					descriptions: [ ]
+					defaultBackground: 0b
+					title: "stone age"
+					entryID: [I;
+						-1663154122
+						-1910355337
+						-1240887730
+						1089482427
+					]
+					background: {
+						id: "sdm_bestiary:custom_icon"
+						tag: {
+							Icon: "minecraft:block/stone"
+						}
+						Count: 1b
+					}
+				}
+				{
+					entries: [
+						{
+							pos_y_offset: 0
+							pos_x_offset: 0
+							pitch: 180.0d
+							speed_rotate: 1
+							yaw: 0.0d
+							auto_rotate: 1b
+							render_setting: {
+								size_y: 32
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 32
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 20.0d
+								autoSize_advanced: 0b
+							}
+							entryID: "entityBestiaryEntryContent"
+							entity: "minecraft:skeleton"
+							entryContentID: [I;
+								-132854653
+								-1771025920
+								-1417971298
+								-1612272739
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "Skeleton"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 2.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-78490607
+								-990294063
+								-1333474281
+								22553231
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "❤ : 20"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-243545770
+								-699118357
+								-1729366022
+								418654440
+							]
+						}
+						{
+							isCentered_x: 0b
+							text_y_offset: 0
+							text: "☠ : 2 🏹"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								384651583
+								-116438916
+								-2045664960
+								-852162383
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: ""
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-1720568195
+								-1806875260
+								-1910119524
+								1112086375
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "Spawn : 🌘"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-1079045030
+								1160726477
+								-1534893258
+								236607485
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "Biome : all"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-70561891
+								-494384713
+								-1194869787
+								-507591335
+							]
+						}
+						{
+							space: 0
+							render_setting: {
+								size_y: 2
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							entryID: "spaceBestiaryEntryContent"
+							entryContentID: [I;
+								-273416353
+								-2116402097
+								-1779863689
+								1182423131
+							]
+						}
+					]
+					icon: {
+						id: "minecraft:iron_ingot"
+						Count: 1b
+					}
+					descriptions: [ ]
+					defaultBackground: 0b
+					title: "iron age"
+					entryID: [I;
+						1118542114
+						-788116083
+						-1820503021
+						2096340356
+					]
+					background: {
+						id: "sdm_bestiary:custom_icon"
+						tag: {
+							Icon: "immersive_weathering:block/exposed_plate_iron"
+						}
+						Count: 1b
+					}
+				}
+				{
+					entries: [
+						{
+							pos_y_offset: 0
+							pos_x_offset: 0
+							pitch: 180.0d
+							speed_rotate: 1
+							yaw: 0.0d
+							auto_rotate: 1b
+							render_setting: {
+								size_y: 32
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 32
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 15.0d
+								autoSize_advanced: 0b
+							}
+							entryID: "entityBestiaryEntryContent"
+							entity: "iceandfire:amphithere"
+							entryContentID: [I;
+								1429172158
+								743656865
+								-1201516576
+								428562304
+							]
+						}
+						{
+							isCentered_x: 1b
+							text_y_offset: 0
+							text: "Amphithere"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 2.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "ftbTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								1827800718
+								-176206061
+								-1783813318
+								-33762879
+							]
+						}
+						{
+							isCentered_x: 0b
+							text_y_offset: 0
+							text: "Spawn : ☀"
+							render_setting: {
+								size_y: 14
+								blue: 255
+								green: 255
+								positions_x: 172
+								positions_y: 38
+								centerType: "CENTER_X"
+								size_x: 284
+								red: 255
+								alpha: 255
+								autoSize: 1b
+								isCreated: 1b
+								scale: 1.0d
+								autoSize_advanced: 0b
+							}
+							text_x_offset: 0
+							entryID: "sdmTextEntryContent"
+							drawBackground: 0b
+							isCentered_y: 0b
+							entryContentID: [I;
+								-1060254508
+								1912817738
+								-2042063820
+								-696632901
+							]
+						}
+					]
+					icon: {
+						id: "iceandfire:armor_silver_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+						Count: 1b
+					}
+					descriptions: [ ]
+					defaultBackground: 0b
+					title: "middle age"
+					entryID: [I;
+						-1816694686
+						1502693568
+						-1102485983
+						-723074058
+					]
+					background: {
+						id: "sdm_bestiary:custom_icon"
+						tag: {
+							Icon: "minecraft:block/end_stone_bricks"
+						}
+						Count: 1b
+					}
+				}
+			]
+			background: {
+				id: "sdm_bestiary:custom_icon"
+				tag: {
+					Icon: "brewery:block/bag_bottom"
+				}
+				Count: 1b
+			}
+			titleScale: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:oak_log"
+				Count: 1b
+			}
+			defaultBackground: 0b
+			tabID: [I;
+				-1390560018
+				429016061
+				-1089234323
+				-759295507
+			]
+			renderTitle: 1b
+			title: "Ressources"
+			tabEntries: [{
+				entries: [
+					{
+						pos_y_offset: 0
+						image: {
+							id: "sdm_bestiary:custom_icon"
+							tag: {
+								Icon: "tough_beginnings:item/raw_flint"
+							}
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 32
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 32
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							-237916927
+							-875478356
+							-1415016701
+							-1632534839
+						]
+					}
+					{
+						isCentered_x: 1b
+						text_y_offset: 0
+						text: "Raw flint"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 2.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							1148826623
+							792088417
+							-2131296018
+							-1977012495
+						]
+					}
+					{
+						isCentered_x: 1b
+						text_y_offset: 0
+						text: "Can be sharpen into flint :"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							-272662015
+							-15577688
+							-1728133506
+							-1680832659
+						]
+					}
+					{
+						pos_y_offset: 0
+						image: {
+							id: "minecraft:flint"
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 16
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 16
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							-320476505
+							-552711669
+							-1294492620
+							1499832452
+						]
+					}
+					{
+						isCentered_x: 1b
+						text_y_offset: 0
+						text: "But can also be broken into flint shards :"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							-920301128
+							-1785708430
+							-2050442285
+							-441145674
+						]
+					}
+					{
+						pos_y_offset: 0
+						image: {
+							id: "tough_beginnings:flint_shard"
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 16
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 16
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							-1518536724
+							1082278046
+							-1395265831
+							1381883087
+						]
+					}
+					{
+						isCentered_x: 1b
+						text_y_offset: 0
+						text: " "
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 2.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							-73002124
+							-2041492866
+							-1805138292
+							527749580
+						]
+					}
+					{
+						pos_y_offset: 0
+						image: {
+							id: "tough_beginnings:plantfiber"
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 32
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 32
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							-96552301
+							-1275902057
+							-1956134877
+							593834330
+						]
+					}
+					{
+						isCentered_x: 1b
+						text_y_offset: 0
+						text: "Plant fiber"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 2.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							1809708452
+							167791680
+							-1422615958
+							1968015635
+						]
+					}
+					{
+						isCentered_x: 0b
+						text_y_offset: 0
+						text: "Can be used to craft ropes"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							-1686762727
+							1796099606
+							-1935479939
+							-1676708426
+						]
+					}
+					{
+						pos_y_offset: 0
+						image: {
+							id: "tough_beginnings:fiber_rope"
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 16
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 16
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							1042374655
+							1078020757
+							-1946174894
+							-121094701
+						]
+					}
+					{
+						isCentered_x: 0b
+						text_y_offset: 0
+						text: "Or pile of fiber to make fire"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							839855116
+							1279475757
+							-1937023178
+							345665255
+						]
+					}
+					{
+						pos_y_offset: 0
+						image: {
+							id: "tough_beginnings:pile_of_fiber"
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 16
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 16
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							794378408
+							997936950
+							-1512299853
+							-213540673
+						]
+					}
+					{
+						pos_y_offset: 0
+						image: {
+							id: "tough_beginnings:pile_of_fiber"
+							Count: 1b
+						}
+						button_type: "LINK"
+						path: "b71194e9-25cb-4a3f-af1b-26b5e5f50ba9"
+						text: "see more about : Pile of fiber"
+						render_setting: {
+							size_y: 14
+							blue: 127
+							green: 127
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 127
+							alpha: 127
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						imageBackground: {
+							id: "minecraft:air"
+							tag: { }
+							Count: 1b
+						}
+						entryID: "buttonEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							-264640975
+							-1565700464
+							-1663590243
+							165746380
+						]
+					}
+					{
+						text: ""
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "multiTextBestiaryEntryContent"
+						drawBackground: 0b
+						entryContentID: [I;
+							-1226244581
+							1708018933
+							-2021453179
+							570670961
+						]
+					}
+					{
+						pos_y_offset: 0
+						image: {
+							id: "spelunkers_charm:rock"
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 32
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 32
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							1032462375
+							-660125633
+							-2103505305
+							-1012019566
+						]
+					}
+					{
+						isCentered_x: 1b
+						text_y_offset: 0
+						text: "Rocks"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 2.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							-441683210
+							1788889844
+							-1914354452
+							1689583936
+						]
+					}
+					{
+						isCentered_x: 0b
+						text_y_offset: 0
+						text: "Can be found on the ground, useful to craft strater tools"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 0b
+						}
+						text_x_offset: 0
+						entryID: "sdmTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							-670562681
+							1117929774
+							-1482205363
+							-108407700
+						]
+					}
+				]
+				icon: {
+					id: "spelunkers_charm:rock"
+					Count: 1b
+				}
+				descriptions: [ ]
+				defaultBackground: 0b
+				title: "stone age"
+				entryID: [I;
+					-387905359
+					-733788228
+					-1964599061
+					-786828948
+				]
+				background: {
+					id: "sdm_bestiary:custom_icon"
+					tag: {
+						Icon: "minecraft:block/stone"
+					}
+					Count: 1b
+				}
+			}]
+			background: {
+				id: "sdm_bestiary:custom_icon"
+				tag: {
+					Icon: "brewery:block/bag_bottom"
+				}
+				Count: 1b
+			}
+			titleScale: 1.0d
+		}
+		{
+			icon: {
+				id: "handcrafted:salmon_trophy"
+				Count: 1b
+			}
+			defaultBackground: 0b
+			tabID: [I;
+				-1425533435
+				835470541
+				-2044348850
+				632139323
+			]
+			renderTitle: 1b
+			title: "wildlife"
+			tabEntries: [{
+				entries: [ ]
+				icon: {
+					id: "spelunkers_charm:rock"
+					Count: 1b
+				}
+				descriptions: [ ]
+				defaultBackground: 0b
+				title: "stone age"
+				entryID: [I;
+					373145329
+					704135505
+					-1514836185
+					477675
+				]
+				background: {
+					id: "sdm_bestiary:custom_icon"
+					tag: {
+						Icon: "minecraft:block/stone"
+					}
+					Count: 1b
+				}
+			}]
+			background: {
+				id: "sdm_bestiary:custom_icon"
+				tag: {
+					Icon: "brewery:block/bag_bottom"
+				}
+				Count: 1b
+			}
+			titleScale: 1.0d
+		}
+		{
+			icon: {
+				id: "tfmg:electric_motor"
+				Count: 1b
+			}
+			defaultBackground: 0b
+			tabID: [I;
+				44838529
+				-658094596
+				-1397774935
+				769573383
+			]
+			renderTitle: 1b
+			title: "Technology"
+			tabEntries: [{
+				entries: [
+					{
+						pos_y_offset: 0
+						image: {
+							id: "tough_beginnings:pile_of_fiber"
+							Count: 1b
+						}
+						render_setting: {
+							size_y: 32
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 32
+							red: 255
+							alpha: 255
+							autoSize: 1b
+							isCreated: 1b
+							scale: 2.0d
+							autoSize_advanced: 0b
+						}
+						entryID: "imageEntryContent"
+						pos_x_offset: 0
+						entryContentID: [I;
+							-170163975
+							1628785085
+							-1140916323
+							1186460389
+						]
+					}
+					{
+						isCentered_x: 1b
+						text_y_offset: 0
+						text: "Pile of fiber"
+						render_setting: {
+							size_y: 14
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 0b
+							isCreated: 1b
+							scale: 2.0d
+							autoSize_advanced: 1b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 0b
+						entryContentID: [I;
+							-1714708599
+							-993309540
+							-1803099165
+							-733984881
+						]
+					}
+					{
+						isCentered_x: 0b
+						text_y_offset: 0
+						text: "Using one stick in your left hand and one in your right hand, you can start a fire !"
+						render_setting: {
+							size_y: 28
+							blue: 255
+							green: 255
+							positions_x: 172
+							positions_y: 38
+							centerType: "CENTER_X"
+							size_x: 284
+							red: 255
+							alpha: 255
+							autoSize: 0b
+							isCreated: 1b
+							scale: 1.0d
+							autoSize_advanced: 1b
+						}
+						text_x_offset: 0
+						entryID: "ftbTextEntryContent"
+						drawBackground: 0b
+						isCentered_y: 1b
+						entryContentID: [I;
+							1558050892
+							-1102298428
+							-1975929453
+							-801404826
+						]
+					}
+				]
+				icon: {
+					id: "spelunkers_charm:rock"
+					Count: 1b
+				}
+				descriptions: [ ]
+				defaultBackground: 0b
+				title: "stone age"
+				entryID: [I;
+					-1223584535
+					634079807
+					-1357175115
+					-436925527
+				]
+				background: {
+					id: "sdm_bestiary:custom_icon"
+					tag: {
+						Icon: "minecraft:block/stone"
+					}
+					Count: 1b
+				}
+			}]
+			background: {
+				id: "sdm_bestiary:custom_icon"
+				tag: {
+					Icon: "brewery:block/bag_bottom"
+				}
+				Count: 1b
+			}
+			titleScale: 1.0d
+		}
+	]
+}

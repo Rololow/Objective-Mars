@@ -1,0 +1,454 @@
+{
+	autofocus_id: "02FD986F8D068C8A"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "antique"
+	group: "0786A628D15FD058"
+	id: "23380A6EA782E071"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"69953582E16A9202"
+				"36FFDF51E41D21B8"
+				"32BE56CE3A6F4812"
+			]
+			dependency_requirement: "one_completed"
+			id: "7E33667A51E6D73F"
+			size: 1.5d
+			tasks: [{
+				id: "1CD0DC637CFBA320"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.antique.quest1.title}"
+			x: -2.25d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"69953582E16A9202"
+				"36FFDF51E41D21B8"
+				"32BE56CE3A6F4812"
+			]
+			id: "74116E32C3C72B61"
+			size: 1.5d
+			tasks: [{
+				id: "3463C642ACB7852C"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E33667A51E6D73F"]
+			id: "6966D85ECF0121FD"
+			tasks: [{
+				id: "75788B4AD2AA8EC2"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6966D85ECF0121FD"]
+			id: "01A47D5BFBF6DA1D"
+			tasks: [{
+				id: "1899135EDE5F3188"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["01A47D5BFBF6DA1D"]
+			id: "4C1A5ED7DFF47514"
+			rewards: [{
+				id: "351B5B7149F80546"
+				item: "hexerei:witch_hazel_broom_stand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "554FE2F44477CB46"
+				item: {
+					Count: 1
+					id: "hexerei:witch_hazel_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.antique.quest6.title}"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			id: "71ED1C6E20C5F2C7"
+			tasks: [{
+				count: 2L
+				id: "037ADA0D2290508F"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74116E32C3C72B61"]
+			dependency_requirement: "one_completed"
+			id: "03920F705E0E0404"
+			rewards: [{
+				id: "1746EB1ECC7FA7C8"
+				item: "supplementaries:bomb"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "6670CD2F03CD2B05"
+					item: "supplementaries:cannonball"
+					type: "item"
+				}
+				{
+					id: "64B15A3ABC3CEC1F"
+					item: "supplementaries:cannon"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			description: ["{ftbquests.chapter.antique.quest9.description1}"]
+			id: "06D63421F2E4F395"
+			rewards: [{
+				id: "5B3F3E476B1CD004"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E991EC837D37F6A"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:limited_barrel_1"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.antique.quest9.title}"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["71ED1C6E20C5F2C7"]
+			description: ["{ftbquests.chapter.antique.quest10.description1}"]
+			id: "41AF86146AAE0BDA"
+			rewards: [{
+				count: 18
+				id: "79DC0907A054DB4F"
+				item: "create:blaze_cake"
+				random_bonus: 9
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "25AB2F539AE349CF"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "164786987C4EF7A5"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"70FD66BD7D01A3B3"
+				"75BA4AA16A60B6CD"
+				"28C1E8C24A7D42E2"
+				"7D28AD9914EFA9D8"
+				"2875C7E28F1B4649"
+				"68BE03B549D52455"
+				"33DC9E6ACCB3D885"
+				"61B4CE0CE326627E"
+				"10AF219082E56F10"
+				"68C50348D2075442"
+				"4B30332C0C759EE8"
+				"556301A0CF784B0D"
+			]
+			description: [
+				"{ftbquests.chapter.antique.quest11.description1}"
+				"{ftbquests.chapter.antique.quest11.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:end_crystal"
+			id: "02FD986F8D068C8A"
+			rewards: [{
+				auto: "invisible"
+				id: "456AA159C4355504"
+				ignore_reward_blocking: true
+				stage: "industry"
+				type: "gamestage"
+			}]
+			size: 1.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "4C2D3FA7A3C07AF7"
+				title: "{ftbquests.chapter.antique.quest11.task_+5489113510073891575.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.antique.quest11.title}"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "712E01A3174B0BD3"
+			rewards: [
+				{
+					count: 8
+					id: "56C7665520FFA567"
+					item: "vinery:red_grape_bag"
+					type: "item"
+				}
+				{
+					id: "1212B204A7F34E0E"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+				{
+					id: "291009073DEE586C"
+					item: "vinery:spruce_wine_rack_big"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "40B1AD5485DAE87F"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "4302153AAEAFDF7F"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "75BA4AA16A60B6CD"
+			tasks: [{
+				id: "178B125228E1A34D"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "70FD66BD7D01A3B3"
+			tasks: [{
+				id: "2E5D9001227B2183"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "556301A0CF784B0D"
+			tasks: [{
+				id: "6DE8CB3D9F2BF5F2"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "4B30332C0C759EE8"
+			tasks: [{
+				id: "5910978A63DDA42F"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			id: "2875C7E28F1B4649"
+			tasks: [{
+				id: "7822180132ACC500"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "68BE03B549D52455"
+			tasks: [{
+				id: "7A0F79C52734B08C"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "7D28AD9914EFA9D8"
+			tasks: [{
+				id: "04E37FFE70A8B609"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "10AF219082E56F10"
+			tasks: [{
+				id: "467362E3680E020D"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			id: "33DC9E6ACCB3D885"
+			tasks: [{
+				id: "2AC42AC8A9FBB678"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "68C50348D2075442"
+			tasks: [{
+				id: "490181BE8140864C"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			id: "28C1E8C24A7D42E2"
+			tasks: [{
+				id: "240E532C5C2A51C1"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			id: "61B4CE0CE326627E"
+			tasks: [{
+				id: "624B94A3A3F0EE92"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+	]
+	title: "{ftbquests.chapter.antique.title}"
+}

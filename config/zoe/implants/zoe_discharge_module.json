@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 4.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:basic_board",
+      "count": 2.0
+    },
+    "result": "zoe:discharge_module"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:discharge",
+      "amplifier": 1.0
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.5
+}

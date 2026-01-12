@@ -1,0 +1,449 @@
+{
+	autofocus_id: "16ED10DB8FF315F8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cailloux"
+	group: "0786A628D15FD058"
+	id: "65F4A350C68FA603"
+	images: [{
+		height: 2.0d
+		image: "ad_astra:textures/painting/earth.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 3.5d
+		y: -3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.cailloux.quest1.description1}"
+				""
+				"{ftbquests.chapter.cailloux.quest1.description2}"
+			]
+			id: "49251EFD5BAC1B71"
+			rewards: [{
+				count: 8
+				id: "2AB44E1C3831EE03"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.cailloux.quest1.subtitle}"
+			tasks: [{
+				id: "7C6D086922F16983"
+				title: "{ftbquests.chapter.cailloux.quest1.task_+8965831680815360387.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest1.title}"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10D9757CC596F8D3"]
+			description: ["{ftbquests.chapter.cailloux.quest2.description1}"]
+			id: "03819825C11B9227"
+			tasks: [{
+				id: "4A5C3DAECB06EB54"
+				item: "meadow:straw_bed"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest2.title}"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49251EFD5BAC1B71"]
+			description: ["{ftbquests.chapter.cailloux.quest3.description1}"]
+			id: "4850712C5B8D6CF4"
+			rewards: [{
+				id: "7FD4053A4BB57AB9"
+				item: "quark:shiba_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4B09F648635D880A"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest3.title}"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D53015BA1840B2A"]
+			description: ["{ftbquests.chapter.cailloux.quest4.description1}"]
+			id: "09D961232F2DC82C"
+			rewards: [{
+				count: 16
+				id: "0661FB406886A496"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4461CB4835DACAFD"
+				item: "minecraft:raw_iron"
+				title: "{ftbquests.chapter.cailloux.quest4.task_+4927442978321648381.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest4.title}"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10D9757CC596F8D3"]
+			description: ["{ftbquests.chapter.cailloux.quest5.description1}"]
+			id: "73F2E8312778F310"
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "31A564F00B925F26"
+				item: "astikorcarts:wheel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest5.title}"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73F2E8312778F310"]
+			description: ["{ftbquests.chapter.cailloux.quest6.description1}"]
+			id: "6229B5DA4E1B4221"
+			size: 1.25d
+			tasks: [{
+				consume_items: false
+				id: "4A66FDF952D43C74"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest6.title}"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03819825C11B9227"]
+			id: "77F8E6423D919217"
+			tasks: [{
+				consume_items: false
+				id: "3A1439D1EC247CEC"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest7.title}"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26C8B1A57967B682"]
+			description: ["{ftbquests.chapter.cailloux.quest8.description1}"]
+			id: "237B9143D8A9E0CE"
+			rewards: [{
+				id: "34B7B684E5F3EF6A"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7067109F997E5BA9"
+				item: {
+					Count: 1
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest8.title}"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2685F810F2797290"]
+			description: ["{ftbquests.chapter.cailloux.quest10.description1}"]
+			id: "1BCD092A4E420F19"
+			rewards: [{
+				auto: "invisible"
+				id: "346B6FBFF8EE9C3C"
+				ignore_reward_blocking: true
+				stage: "ironage"
+				title: "{ftbquests.chapter.cailloux.quest10.reward_3777235582786116668.title}"
+				type: "gamestage"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "00092DE1D78529D2"
+				item: "kubejs:rough_wrought_iron"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest10.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10D9757CC596F8D3"]
+			description: ["{ftbquests.chapter.cailloux.quest12.description1}"]
+			id: "6DC1FF630B8446FB"
+			tasks: [{
+				id: "122943F3C9FFB280"
+				item: "meadow:wooden_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49251EFD5BAC1B71"]
+			description: ["{ftbquests.chapter.cailloux.quest13.description1}"]
+			id: "18DF20CAACF30E51"
+			rewards: [{
+				count: 8
+				id: "462C6182DFCBA936"
+				item: "tough_beginnings:raw_flint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B495596E22020C"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest13.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18DF20CAACF30E51"]
+			description: ["{ftbquests.chapter.cailloux.quest14.description1}"]
+			id: "16ED10DB8FF315F8"
+			rewards: [{
+				count: 4
+				id: "5E5B0A2DF9A86A68"
+				item: "tough_beginnings:plantfiber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F60900CAF73B2C9"
+				item: {
+					Count: 1
+					id: "tough_beginnings:flintknife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest14.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16ED10DB8FF315F8"]
+			description: ["{ftbquests.chapter.cailloux.quest15.description1}"]
+			id: "26C8B1A57967B682"
+			rewards: [{
+				count: 2
+				id: "6313AA37096E31E7"
+				item: "tough_beginnings:plantfiber"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "358EE021EC245725"
+					item: "tough_beginnings:fiber_rope"
+					type: "item"
+				}
+				{
+					id: "3427B6D70098F2C5"
+					item: {
+						Count: 1
+						id: "tough_beginnings:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.cailloux.quest15.title}"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26C8B1A57967B682"]
+			description: [
+				"{ftbquests.chapter.cailloux.quest16.description1}"
+				""
+				"{ftbquests.chapter.cailloux.quest16.description2}"
+			]
+			id: "10D9757CC596F8D3"
+			rewards: [{
+				count: 8
+				id: "708802146FBC6160"
+				item: "tough_beginnings:tough_block_of_wood"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "344D3AE9EFEFF48C"
+					item: "tough_beginnings:pile_of_fiber"
+					type: "item"
+				}
+				{
+					id: "224AC0E93CC02CA1"
+					item: "tough_beginnings:tough_block_of_wood"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.cailloux.quest16.title}"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49251EFD5BAC1B71"]
+			description: [
+				"{ftbquests.chapter.cailloux.quest17.description1}"
+				"{ftbquests.chapter.cailloux.quest17.description2}"
+			]
+			id: "0D53015BA1840B2A"
+			rewards: [{
+				auto: "invisible"
+				id: "1AE6930F3AF3CFC1"
+				ignore_reward_blocking: true
+				stage: "stoneage"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2D6C7926F81910DB"
+				item: "spelunkers_charm:rock"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.cailloux.quest17.title}"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["10D9757CC596F8D3"]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.cailloux.quest18.description1}"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "075738F211F9C8F9"
+			size: 1.25d
+			tasks: [
+				{
+					id: "2012BF32A039D724"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AED641B82CD322E"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3570B7169DE5AD88"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72DB1515F5423CFF"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F9F62B19463D936"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.cailloux.quest18.title}"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09D961232F2DC82C"]
+			icon: "mm:bloomery_furnace"
+			id: "2685F810F2797290"
+			tasks: [
+				{
+					id: "632FCC5B97B6DFF5"
+					item: "mm:bloomery_furnace"
+					type: "item"
+				}
+				{
+					id: "3F66375EC48BCC8E"
+					item: "mm:bloomery_furnace_item_input"
+					type: "item"
+				}
+				{
+					id: "600696543AC79DC9"
+					item: "mm:bloomery_furnace_item_output"
+					type: "item"
+				}
+				{
+					id: "4C637027CD7EF251"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "0C5CF3A7A123EC5F"
+					item: { Count: 14, id: "minecraft:mud_bricks" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2685F810F2797290"]
+			id: "4AA56DA8777F95F6"
+			tasks: [{
+				id: "37CFC667C09CAA3F"
+				item: "metal_works:bronze_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+	]
+	title: "{ftbquests.chapter.cailloux.title}"
+}

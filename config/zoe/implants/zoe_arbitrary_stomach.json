@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:golden_carrot",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:carbonsteel_cog",
+      "count": 4.0
+    },
+    "result": "zoe:arbitrary_stomach"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:plating",
+      "amplifier": 0.5
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.4
+}

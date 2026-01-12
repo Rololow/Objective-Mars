@@ -1,0 +1,26 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:white_dye",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:black_dye",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:nocturne_optics",
+      "count": 1.0
+    },
+    "result": "zoe:secluded_lens"
+  },
+  "attributes": {
+    "attribute1": "forge:nametag_distance",
+    "attribute1amplifier": -3.0,
+    "attribute2": "minecraft:generic.movement_speed",
+    "attribute2amplifier": 0.01,
+    "attribute3": "zoe:sabotage",
+    "attribute3amplifier": 0.5
+  },
+  "update": true
+}

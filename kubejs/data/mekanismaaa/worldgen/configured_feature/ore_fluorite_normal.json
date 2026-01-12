@@ -1,0 +1,47 @@
+{
+  "type": "mekanism:ore",
+  "config": {
+    "oreVeinType": {
+      "type": "fluorite",
+      "index": 0
+    },
+    "targets": [
+      {
+        "state": {
+          "Name": "kubejs:moon_fluorite_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:moon_stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "mekanismaaa:mars_fluorite_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:mars_stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "mekanismaaa:venus_fluorite_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:venus_stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "mekanismaaa:glacio_fluorite_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "ad_astra:glacio_stone"
+        }
+      }
+    ]
+  }
+}

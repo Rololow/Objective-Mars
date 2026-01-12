@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "blueprint": {
+      "ingredient": "zoe:entanglement_blueprint"
+    },
+    "leftSlot": {
+      "ingredient": "zoe:gold_wire",
+      "count": 16.0
+    },
+    "middleSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 32.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:plather_sheet",
+      "count": 4.0
+    },
+    "result": "zoe:entanglement"
+  },
+  "attributes": {},
+  "update": true
+}

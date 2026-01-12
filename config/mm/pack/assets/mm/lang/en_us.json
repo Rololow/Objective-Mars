@@ -1,0 +1,11 @@
+{
+  "block.mm.bloomery_furnace": "Bloomery furnace",
+  "block.mm.bloomery_furnace_item_input": "Bloomery Item Hatch Input",
+  "block.mm.bloomery_furnace_item_output": "Bloomery Item Hatch Output",
+  "block.mm.kiln": "Kiln",
+  "block.mm.kiln_fluid_input": "Kiln Fluid Hatch Input",
+  "block.mm.kiln_fluid_output": "Kiln Fluid Hatch Output",
+  "block.mm.kiln_item_input": "Kiln Item Hatch Input",
+  "block.mm.kiln_item_output": "Kiln Item Hatch Output",
+  "item.mm.blueprint": "Blueprint"
+}

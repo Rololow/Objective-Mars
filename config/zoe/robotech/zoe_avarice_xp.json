@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:blaze_powder",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:plather",
+      "count": 8.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 64.0
+    },
+    "bottomSlot": {
+      "ingredient": "zoe:avarice_xp_hologram",
+      "count": 8.0
+    },
+    "result": "zoe:avarice_xp"
+  },
+  "update": true
+}

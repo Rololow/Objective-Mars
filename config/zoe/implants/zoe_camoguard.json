@@ -1,0 +1,26 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 8.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:black_dye",
+      "count": 32.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:white_dye",
+      "count": 32.0
+    },
+    "result": "zoe:camoguard"
+  },
+  "attributes": {
+    "attribute1": "forge:nametag_distance",
+    "attribute1amplifier": -2.0,
+    "attribute2": "minecraft:generic.armor",
+    "attribute2amplifier": -0.5,
+    "attribute3": "zoe:sabotage",
+    "attribute3amplifier": 0.75
+  },
+  "update": true
+}

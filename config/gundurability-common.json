@@ -1,0 +1,37 @@
+{
+  "maxDurability": 2000,
+  "inaccuracyRate": 500,
+  "doGunsBreak": false,
+  "jamChance": 15,
+  "biomeModifiers": [
+    {
+      "biomeName": "minecraft:desert",
+      "multiplier": 1.5
+    },
+    {
+      "biomeName": "minecraft:river",
+      "multiplier": 2.0
+    },
+    {
+      "biomeName": "minecraft:plains",
+      "multiplier": 0.8
+    }
+  ],
+  "unjammableList": [
+    "tacz:db_short",
+    "tacz:db_long"
+  ],
+  "durabilityList": [
+    {
+      "gunId": "tacz:db_short",
+      "maxDurability": 1500,
+      "jamMultiplier": 2.0
+    },
+    {
+      "gunId": "tacz:db_long",
+      "maxDurability": 1800,
+      "jamMultiplier": 1.0
+    }
+  ],
+  "debug": false
+}

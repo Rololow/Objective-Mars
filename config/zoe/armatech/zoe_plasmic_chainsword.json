@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "blueprint": {
+      "ingredient": "zoe:plasmic_chainsword_blueprint"
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:chain",
+      "count": 32.0
+    },
+    "middleSlot": {
+      "ingredient": "zoe:advanced_board",
+      "count": 8.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:copper_ingot",
+      "count": 32.0
+    },
+    "result": "zoe:plasmic_chainsword"
+  },
+  "attributes": {},
+  "update": true
+}

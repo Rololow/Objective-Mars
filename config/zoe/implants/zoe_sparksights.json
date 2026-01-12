@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:deadeye_optics",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:water_bucket",
+      "count": 1.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 64.0
+    },
+    "result": "zoe:sparksights"
+  },
+  "attributes": [
+    {
+      "attribute": "zoe:volt",
+      "amplifier": 1.0
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.75
+}

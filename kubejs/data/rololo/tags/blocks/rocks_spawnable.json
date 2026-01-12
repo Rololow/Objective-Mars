@@ -1,0 +1,11 @@
+{
+    "values" : [
+        "#minecraft:dirt",
+        "minecraft:gravel",
+        "minecraft:sand",
+        "minecraft:stone",
+        "minecraft:andesite",
+        "minecraft:granite",
+        "minecraft:diorite"
+        ]
+}

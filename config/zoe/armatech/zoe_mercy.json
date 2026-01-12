@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "blueprint": {
+      "ingredient": "zoe:mercy_blueprint"
+    },
+    "leftSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 16.0
+    },
+    "middleSlot": {
+      "ingredient": "zoe:plather",
+      "count": 32.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:carbonsteel_ingot",
+      "count": 32.0
+    },
+    "result": "zoe:mercy"
+  },
+  "attributes": {},
+  "update": true
+}

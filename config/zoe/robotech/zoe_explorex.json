@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:carbonsteel_cog",
+      "count": 16.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:flux_wire",
+      "count": 8.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:advanced_board",
+      "count": 1.0
+    },
+    "bottomSlot": {
+      "ingredient": "zoe:explorex_hologram",
+      "count": 8.0
+    },
+    "result": "zoe:explorex"
+  },
+  "update": true
+}

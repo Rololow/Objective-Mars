@@ -1,0 +1,10 @@
+{
+  "id": "kiln_item",
+  "controllerIds": "mm:kiln",
+  "name": "Kiln Item Hatch",
+  "type": "mm:item",
+  "config": {
+    "rows": 1,
+    "columns": 3
+  }
+}

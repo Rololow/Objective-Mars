@@ -1,0 +1,22 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "zoe:lumoplasma_cell",
+      "count": 32.0
+    },
+    "leftSlot": {
+      "ingredient": "zoe:overdrive_os_hologram",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "zoe:copper_wire",
+      "count": 32.0
+    },
+    "bottomSlot": {
+      "ingredient": "zoe:silicon_sheet",
+      "count": 16.0
+    },
+    "result": "zoe:overdrive_os"
+  },
+  "update": true
+}

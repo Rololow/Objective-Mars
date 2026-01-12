@@ -1,0 +1,131 @@
+{
+	autofocus_id: "5DCA75284711E403"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "788E8CC443E9E0DF"
+	id: "22CAE80B47A6AFF1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5DCA75284711E403"]
+			id: "332F02825690103B"
+			tasks: [{
+				id: "03E5FD024BE0987C"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DCA75284711E403"]
+			id: "65A6FD8C98E8D105"
+			tasks: [{
+				id: "2C8BBA2B0ED8A826"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"332F02825690103B"
+				"49CEF41CA2F45207"
+			]
+			id: "3F88442CBA6AA7D2"
+			tasks: [{
+				id: "69417DD3EC00CCFB"
+				item: "kubejs:cartography_knowledge_note"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "5DCA75284711E403"
+			size: 1.5d
+			tasks: [{
+				id: "3D5142B8E8E4B610"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DCA75284711E403"]
+			id: "618C03578D24EC00"
+			tasks: [{
+				id: "0172AD967D9A9F5D"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DCA75284711E403"]
+			id: "1EB594B68515936C"
+			tasks: [{
+				id: "465737E6864116D5"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "49CEF41CA2F45207"
+			size: 1.5d
+			tasks: [{
+				id: "1DB16DEEF14246FD"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49CEF41CA2F45207"]
+			id: "386089B577210DCD"
+			tasks: [{
+				id: "7A09805C404A3CFE"
+				item: "supplementaries:slice_map"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["386089B577210DCD"]
+			id: "7728066670FBA4A2"
+			tasks: [{
+				id: "1D50BD0255E0C472"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							maps: [I; ]
+						}
+					}
+					id: "map_atlases:atlas"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+	]
+	title: "{ftbquests.chapter.exploration.title}"
+}

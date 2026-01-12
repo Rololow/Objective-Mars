@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {"#": {"tag": "forge:ingots/steel"}, "G": {"tag": "forge:glass_panes"}, "R": {"item": "pneumaticcraft:printed_circuit_board"}},
+    "pattern": ["###", "#R#", "#G#"],
+    "result": {"item": "computercraft:computer_normal"}
+  }
+  

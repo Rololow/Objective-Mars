@@ -1,0 +1,27 @@
+{
+  "recipe": {
+    "topSlot": {
+      "ingredient": "minecraft:iron_boots",
+      "count": 1.0
+    },
+    "leftSlot": {
+      "ingredient": "minecraft:soul_sand",
+      "count": 16.0
+    },
+    "rightSlot": {
+      "ingredient": "minecraft:redstone",
+      "count": 32.0
+    },
+    "result": "zoe:amphebic_thrusters"
+  },
+  "attributes": [
+    {
+      "attribute": "forge:swim_speed",
+      "amplifier": 0.25
+    }
+  ],
+  "update": true,
+  "enabled": true,
+  "maxQuality": 0,
+  "humanityScaling": 1.0
+}

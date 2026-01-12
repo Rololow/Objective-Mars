@@ -1,0 +1,71 @@
+# Minecraft modpack instance (CurseForge) — git-friendly defaults
+# Goal: commit pack content (configs/scripts/datapacks), ignore local/runtime/user data.
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs / crash dumps / runtime output
+logs/
+crash-reports/
+*.log
+hs_err_pid*
+replay_pid*
+
+# Worlds + client state (don’t commit)
+saves/
+screenshots/
+local/
+
+# Downloaded artifacts / caches
+downloads/
+
+# CurseForge / launcher instance metadata (usually machine-specific)
+.curseclient/
+minecraftinstance.json
+options.txt
+usercache.json
+usernamecache.json
+user-prefs.json
+imgui.ini
+rhino.local.properties
+
+# Common mod data folders that are typically local/generated (keep if you *want* them)
+#journeymap/
+#XaeroWaypoints/
+#XaeroWorldMap/
+
+# Backups
+**/*backup*/
+**/*.bak
+**/*.old
+
+# Mods: jars are usually not committed in modpacks (licensing + size)
+mods/**/*.jar
+mods/**/*.jar.disabled
+mods/**/*.zip
+mods/**/*.litemod
+
+# Shaderpacks are often large/licensed; ignore by default
+shaderpacks/
+
+# TACZ backups
+tacz_backup/
+
+# If you export as a CurseForge pack later, you might add manifest files here.
+# (This repo currently looks like an instance/overrides repo.)
+
+.curseclient
+
+config/mm/pack/.cache/
+
+gtceu/prospection_cache/
+
+modernfix/structureCacheV1/
+
+tacz/tacz_default_gun.zip
