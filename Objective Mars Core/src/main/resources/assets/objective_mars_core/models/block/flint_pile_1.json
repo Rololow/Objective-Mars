@@ -1,0 +1,8 @@
+{
+  "parent": "spelunkers_charm:block/rock_pile_1",
+  "textures": {
+    "all": "objective_mars_core:block/flint_pile",
+    "particle": "objective_mars_core:block/flint_pile",
+    "1": "objective_mars_core:block/flint_pile"
+  }
+}

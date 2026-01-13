@@ -1,9 +1,0 @@
-{
-  "parent": "spelunkers_charm:custom/rock_2",
-  "textures": {
-    "all": "rololo:block/flint_pile",
-    "particle": "rololo:block/flint_pile",
-    "1": "rololo:block/flint_pile"
-  },
-  "render_type": "solid"
-}

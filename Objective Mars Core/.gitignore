@@ -17,6 +17,10 @@ out
 build
 .gradle
 
+# local dependency jars
+libs/
+libs/*.jar
+
 # other
 eclipse
 run

@@ -15,10 +15,6 @@
 
     "block.kubejs.moon_fluorite_ore" : "Moon Fluorite Ore",
     "block.kubejs.moon_lead_ore" : "Moon Lead Ore",
-    "block.kubejs.moon_uranium_ore" : "Moon Uranium Ore",
-
-    "block.kubejs.flint_pile_1": "Flint Pile",
-    "block.kubejs.flint_pile_2": "Flint Pile",
-    "block.kubejs.flint_pile_3": "Flint Pile"
+    "block.kubejs.moon_uranium_ore" : "Moon Uranium Ore"
 
 }
